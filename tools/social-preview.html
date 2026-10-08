@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<meta charset="utf-8">
+<title>Rayforce Technologies social preview artwork</title>
+<style>
+@font-face { font-family: Oswald; font-weight: 700; src: url('../docs/assets/fonts/oswald-700.woff2'); }
+@font-face { font-family: Inter; font-weight: 600; src: url('../docs/assets/fonts/inter-600.woff2'); }
+@font-face { font-family: Mono; src: url('../docs/assets/fonts/jbmono-400.woff2'); }
+* { box-sizing: border-box; }
+html, body { margin: 0; width: 1200px; height: 630px; overflow: hidden; }
+body { position: relative; background: #0a0e13; color: #f1f5f9; font-family: Inter, sans-serif; }
+body::before { content: ''; position: absolute; inset: 0; background: linear-gradient(rgba(123,143,160,.15) 1px, transparent 1px), linear-gradient(90deg, rgba(123,143,160,.15) 1px, transparent 1px); background-size: 56px 56px; mask-image: radial-gradient(ellipse at 83% 44%, black, transparent 75%); }
+body::after { content: ''; position: absolute; inset: 0; background: radial-gradient(ellipse at 85% 45%, rgba(233,160,51,.10), transparent 55%); pointer-events: none; }
+main { position: relative; z-index: 1; padding: 58px 64px; height: 100%; }
+header { display: flex; align-items: center; gap: 14px; }
+header img { width: 39px; height: 43px; }
+.brand { font: 700 27px/1 Oswald; letter-spacing: 1.5px; }
+.brand small { display: block; margin-top: 8px; font: 10px/1 Mono; letter-spacing: 3px; color: #7b8fa0; }
+h1 { margin: 54px 0 0; font: 700 72px/1.15 Oswald; text-transform: uppercase; letter-spacing: -1.5px; }
+h1 span { color: #e9a033; }
+.symbol { position: absolute; width: 266px; height: 293px; right: 64px; top: 158px; }
+.products { display: flex; gap: 30px; margin-top: 37px; font-size: 22px; }
+.products span { display: flex; align-items: center; gap: 10px; }
+.products i { display: block; width: 7px; height: 7px; border-radius: 50%; background: #e9a033; }
+.products .cloud i { background: #5eead4; }
+.products small { font: 10px Mono; color: #7b8fa0; text-transform: uppercase; }
+footer { position: absolute; bottom: 43px; left: 64px; right: 64px; padding-top: 22px; border-top: 1px solid rgba(233,160,51,.2); font: 16px Mono; color: #7b8fa0; }
+</style>
+<main>
+  <header><img src="../docs/assets/rayforce-mark.svg" alt=""><div class="brand">RAYFORCE<small>TECHNOLOGIES</small></div></header>
+  <h1>Data infrastructure<br><span>for finance &amp; AI.</span></h1>
+  <img class="symbol" src="../docs/assets/rayforce-mark.svg" alt="">
+  <div class="products"><span><i></i>RayforceDB</span><span class="cloud"><i></i>Rayforce Cloud <small>Coming soon</small></span></div>
+  <footer>rayforce.co</footer>
+</main>
+</html>

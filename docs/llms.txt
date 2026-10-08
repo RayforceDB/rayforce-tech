@@ -1,0 +1,16 @@
+# Rayforce Technologies Inc.
+
+> Rayforce Technologies builds data infrastructure for finance and AI: RayforceDB, an open-source data engine, and Rayforce Cloud, an upcoming managed platform.
+
+Rayforce Technologies Inc. is based in Washington, USA. Its company website is https://rayforce.co/. Contact: anton@rayforcedb.com.
+
+## Products
+
+- [RayforceDB](https://rayforcedb.com/): Open-source data engine for analytics, graphs, and vector search. Runs on your infrastructure.
+- [RayforceDB source code](https://github.com/RayforceDB/rayforce): Public source repository for the database engine.
+- [Rayforce Cloud](https://rayforcedb.com/#cloud): Upcoming fully managed platform for the Rayforce engine. Coming soon; not generally available.
+
+## Company
+
+- [Rayforce Technologies](https://rayforce.co/): Official company website.
+- [GitHub organization](https://github.com/RayforceDB): Company project repositories.
